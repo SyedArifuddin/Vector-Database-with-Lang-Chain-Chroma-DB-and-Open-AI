@@ -5,8 +5,7 @@ from langchain.vectorstores import Chroma
 from langchain.chains import VectorDBQAWithSourcesChain
 from langchain.llms import OpenAI
 
-os.environ["OPENAI_API_KEY"] ="sk-proj-cFrNlGjya1dSnksPjKXNT3BlbkFJxnT4jJWRjcV719eVwT5b"
-
+os.environ.get("OPENAI_API_KEY").
 def read_and_textify(files):
     text_list = []
     sources_list = [] # Initialize the sources_list variable
